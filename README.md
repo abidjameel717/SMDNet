@@ -8,12 +8,14 @@ Code for the manuscript:
 
 SMD-Net V2 is a self-supervised audiovisual deepfake detector (CNN–Transformer visual encoder, CNN–BiLSTM audio encoder, contrastive pretraining and supervised fusion; 28.4 M parameters). The paper evaluates it on FakeAVCeleb v1.2 under a frozen, audited protocol and shows that near-perfect benchmark accuracy partly reflects video encoding: a training-free codec rule reaches 0.973 balanced accuracy, and re-encoding the test set to H.264 lowers the detector's accuracy by 22–24 percentage points while ROC-AUC stays near 0.97.
 
-**Data, checkpoints and predictions:** Zenodo [DATA DOI] · **This code:** Zenodo [SOFTWARE DOI]
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23288367.svg)](https://doi.org/10.5281/zenodo.23288367)
+
+**Data, checkpoints and predictions:** [doi.org/10.5281/zenodo.23288367](https://doi.org/10.5281/zenodo.23288367) · **This code:** Zenodo [SOFTWARE DOI]
 
 ## Repository structure
 
 ```
-SMDNet-V2/
+SMDNet/
 ├── notebooks/
 │   ├── SMDNet_V2_Reproduction.ipynb       clean, linear notebook — start here
 │   └── Video_forgery_development.ipynb    complete development notebook with all outputs
@@ -33,7 +35,7 @@ SMDNet-V2/
 
 ## Quick start (Google Colab, T4 GPU)
 
-1. Download the data record from Zenodo and place its contents in `MyDrive/SMDNet_V2_ScientificReports` (or point the notebooks at another folder).
+1. Download the data record from Zenodo ([10.5281/zenodo.23288367](https://doi.org/10.5281/zenodo.23288367)) and place its contents in `MyDrive/SMDNet_V2_ScientificReports` (or point the notebooks at another folder).
 2. Download FakeAVCeleb v1.2 from its authors; the notebooks fetch it through KaggleHub (`shreyaty08/fakeavceleb`). Its use is subject to the dataset licence.
 3. Open `notebooks/SMDNet_V2_Reproduction.ipynb`:
    - **Part A** re-derives every reported number from the frozen artefacts (CPU is enough; minutes).

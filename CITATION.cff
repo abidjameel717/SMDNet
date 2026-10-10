@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the article below."
+message: "If you use this code, please cite the article below. Data: https://doi.org/10.5281/zenodo.23288367"
 title: "SMD-Net V2: code for 'Beyond Benchmark Accuracy: Investigating Encoding Bias and Robustness in Audiovisual Deepfake Detection'"
 type: software
 version: "1.0.0"
 license: MIT
-repository-code: "https://github.com/[USERNAME]/SMDNet-V2"
+repository-code: "https://github.com/abidjameel717/SMDNet"
 keywords:
   - deepfake detection
   - audiovisual forensics
