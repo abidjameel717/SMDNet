@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "SMD-Net V2: code for 'Beyond Benchmark Accuracy: Investigating Encoding Bias and Robustness in Audiovisual Deepfake Detection'"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/[USERNAME]/SMDNet-V2"
+keywords:
+  - deepfake detection
+  - audiovisual forensics
+  - self-supervised learning
+  - shortcut learning
+  - dataset bias
+  - video compression
+  - reproducibility
+authors:
+  - family-names: Mazhar
+    given-names: Ahmad A.
+  - family-names: Elmannai
+    given-names: Hela
+  - family-names: Jameel
+    given-names: Abid
+  - family-names: Alsehaim
+    given-names: Aishah
+  - family-names: Hayat
+    given-names: Faisal
+  - family-names: Serat
+    given-names: Ali Mohammad
+    email: serat_af@yahoo.com
+  - family-names: Khan
+    given-names: Iftikhar Ali
+preferred-citation:
+  type: article
+  title: "Beyond Benchmark Accuracy: Investigating Encoding Bias and Robustness in Audiovisual Deepfake Detection"
+  journal: "Scientific Reports"
+  status: submitted
+  year: 2026
+  authors:
+    - family-names: Mazhar
+      given-names: Ahmad A.
+    - family-names: Elmannai
+      given-names: Hela
+    - family-names: Jameel
+      given-names: Abid
+    - family-names: Alsehaim
+      given-names: Aishah
+    - family-names: Hayat
+      given-names: Faisal
+    - family-names: Serat
+      given-names: Ali Mohammad
+    - family-names: Khan
+      given-names: Iftikhar Ali
