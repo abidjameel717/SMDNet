@@ -3,14 +3,14 @@
 Code for the manuscript:
 
 > **Beyond Benchmark Accuracy: Investigating Encoding Bias and Robustness in Audiovisual Deepfake Detection**
-> Ahmad A. Mazhar, Hela Elmannai, Abid Jameel, Aishah Alsehaim, Faisal Hayat, Ali Mohammad Serat and Iftikhar Ali Khan.
+> Ahmad A. Mazhar, Hela Elmannai, Abid Jameel, Aishah Alsehaim, Faisal Hayat, Ali Mohammad Serat, Shaukat Hayat and Iftikhar Ali Khan.
 > *Scientific Reports* (submitted, 2026).
 
 SMD-Net V2 is a self-supervised audiovisual deepfake detector (CNN–Transformer visual encoder, CNN–BiLSTM audio encoder, contrastive pretraining and supervised fusion; 28.4 M parameters). The paper evaluates it on FakeAVCeleb v1.2 under a frozen, audited protocol and shows that near-perfect benchmark accuracy partly reflects video encoding: a training-free codec rule reaches 0.973 balanced accuracy, and re-encoding the test set to H.264 lowers the detector's accuracy by 22–24 percentage points while ROC-AUC stays near 0.97.
 
-[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23288367.svg)](https://doi.org/10.5281/zenodo.23288367)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23288367.svg)](https://doi.org/10.5281/zenodo.23288367) [![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23289450.svg)](https://doi.org/10.5281/zenodo.23289450)
 
-**Data, checkpoints and predictions:** [doi.org/10.5281/zenodo.23288367](https://doi.org/10.5281/zenodo.23288367) · **This code:** Zenodo [SOFTWARE DOI]
+**Data, checkpoints and predictions:** [doi.org/10.5281/zenodo.23288367](https://doi.org/10.5281/zenodo.23288367) · **This code:** [doi.org/10.5281/zenodo.23289450](https://doi.org/10.5281/zenodo.23289450)
 
 ## Repository structure
 
